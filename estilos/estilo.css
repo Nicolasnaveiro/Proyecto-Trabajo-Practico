@@ -282,7 +282,7 @@ footer{
   border: 1px solid salmon;
   color: white;
  background:rgb(37, 37, 37);
- width: 100%;
+ width: 100vw;
  display: flex;
  justify-content: space-between;
  align-items: center;
