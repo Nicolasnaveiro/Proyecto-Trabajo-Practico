@@ -127,7 +127,7 @@ main{
 
  .position{
       position: absolute;
-      top: 55%;
+      top: 70%;
       left: 50%;
       transform: translate(-50%,-50%);
  }
@@ -136,7 +136,7 @@ main{
   background-size: cover;
   border: 1px solid white;
   height: 30%;
-  width: 70%;
+  width: 80%;
   border-radius: 10px;
   animation: animate 35s infinite;
 }
