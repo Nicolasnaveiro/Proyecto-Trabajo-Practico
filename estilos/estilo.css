@@ -1,0 +1,312 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+}
+
+
+
+
+header{
+background-color: black;
+width: 100vw;
+}
+.logo{
+  display: flex;
+  height: 18rem;
+  width: 100%;
+}
+p{
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+ }
+
+.container{
+ display: flex;
+ width: 85%;
+ justify-content: end;
+ align-items: center;
+ text-align: center;
+
+}
+
+#btn{
+  background-color: black;
+  padding: 12px 50px;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.1rem;
+  border-radius: 10px ;
+  margin: 0 1.5rem;
+  }
+#btn:hover{
+  background: rgb(225, 0, 225) ;
+}
+
+
+
+.logo img{
+  width: 100%;
+  height: 100%;
+ 
+}
+
+
+
+.logo p{
+font-family: Cursiva;
+font-size: 1.4rem;
+color: black;
+position: absolute;
+top: 5%;
+padding-left: 1rem;
+margin: 2rem;
+
+
+}
+
+
+
+@font-face {
+  font-family:Cursiva;
+  src: url(../FUENTE/Classico_PersonalUseOnly.ttf);
+
+}
+nav{
+  background-color: rgb(31, 26, 26);
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: fixed;*/
+
+}
+.barra-header{
+   display: flex;
+   flex-wrap: wrap;
+  justify-content: center;      
+ }
+
+ul{
+display: flex;
+justify-content: center;
+}
+
+li{
+  list-style: none;
+  margin: 4.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: rgb(225, 0, 255);
+  
+}
+
+main{
+  display: flex;
+    padding: 2rem;
+   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content:  space-around;
+   background-color: rgb(0, 0, 0);
+   width: 100vw;
+   color: white;
+   height: 1000px;
+ 
+ }
+
+
+
+
+ .position{
+      position: absolute;
+      top: 55%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+ }
+ .slider{
+  background-image: url(../SLIDER/LIBRO\ 1.jpg);
+  background-size: cover;
+  border: 1px solid white;
+  height: 30%;
+  width: 70%;
+  border-radius: 10px;
+  animation: animate 35s infinite;
+}
+
+@keyframes animate{
+  10% {
+    background-image: url(../SLIDER/LIBRO\ 2.jpg);
+    background-size: cover;
+  }
+  20% {
+    background-image: url(../SLIDER/LIBRO\ 3.jpg);
+    background-size: cover;
+  }
+  30% {
+    background-image: url(../SLIDER/LIBRO\ 4.jpg);
+    background-size: cover;
+  }
+  40% {
+    background-image: url(../SLIDER/MUSICA\ 1.jpg);
+    background-size: cover;
+  }
+  50% {
+    background-image: url(../SLIDER/MUSICA\ 2.jpg);
+    background-size: cover;
+  }
+  60% {
+    background-image: url(../SLIDER/MUSICA\ 3.jpg);
+    background-size: cover;
+  }
+  70% {
+    background-image: url(../SLIDER/PELICULAS\ 2.jpg);
+    background-size: cover;
+  }
+  80% {
+    background-image: url(../SLIDER/PELICULAS\ 3.jpg);
+    background-size: cover;
+  }
+  90% {
+    background-image: url(../SLIDER/PELICULA\ 4.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(../SLIDER/peliculaS.jpg);
+    background-size: cover;
+  }
+}
+
+form{
+  padding: 10px 35px;
+  justify-content: center;
+   align-content: space-between;
+  }
+
+
+
+.btn{
+font-weight: bold;
+padding: 15px 30px ;
+border-radius: 10px;
+border: 1px solid white;
+color: rgb(255, 255, 255);
+background-color: black;
+}
+.btn:hover{
+  background: rgb(225, 0, 255);
+  transition: 0.2s;
+}
+
+
+
+h2{
+  text-align: center;
+}
+
+
+
+.libros{
+text-align: center;
+border: 1px solid rgb(255, 254, 254);
+background: gray;
+padding: 28px 10px ;
+height: 300px;
+width: 200px;
+}
+
+
+
+.musica{
+  text-align: center;
+  border: 1px solid rgb(255, 254, 254);
+  background: gray;
+  padding: 28px 10px ;
+  height: 300px;
+  width: 200px;
+}
+
+.peliculas{
+  text-align: center;
+  border: 1px solid rgb(255, 254, 254);
+  background: gray;
+  padding: 28px 10px ;
+  height: 300px;
+  width: 200px;
+}
+
+.contacto{
+
+
+  text-align: center;
+  border: 1px solid rgb(255, 254, 254);
+  background: gray;
+  padding: 28px 10px ;
+  height: 300px;
+  width: 200px;
+}
+
+.carrito{
+
+  text-align: center;
+  border: 1px solid rgb(255, 254, 254);
+  background: gray;
+  padding: 28px 10px ;
+  height: 300px;
+  width: 200px;
+}
+
+
+.servicios{
+  text-align: center;
+  border: 1px solid rgb(255, 254, 254);
+  background: gray;
+  padding: 28px 10px ;
+  height: 300px;
+  width: 200px;
+}
+
+
+
+
+
+
+footer{
+  border: 1px solid salmon;
+  color: white;
+ background:rgb(37, 37, 37);
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ font-size: 10px;
+}
+ 
+
+.informacion{
+  padding: 10px 35px;
+  justify-content: center;
+   align-content: space-between;
+}
+
+
+.informacion2{
+  margin: 10px;
+  justify-content: center;
+   align-content: space-between;
+}
+
+
+
+.informacion3{
+  padding: 10px 35px;
+  justify-content: center;
+   align-content: space-between;
+}
