@@ -127,7 +127,7 @@ main{
 
  .position{
       position: absolute;
-      top: 70%;
+      top: 85%;
       left: 50%;
       transform: translate(-50%,-50%);
  }
@@ -135,7 +135,7 @@ main{
   background-image: url(../SLIDER/LIBRO\ 1.jpg);
   background-size: cover;
   border: 1px solid white;
-  height: 30%;
+  height: 65%;
   width: 80%;
   border-radius: 10px;
   animation: animate 35s infinite;
@@ -214,6 +214,7 @@ h2{
 
 
 .libros{
+margin-top: 500px;
 text-align: center;
 border: 1px solid rgb(255, 254, 254);
 background: gray;
@@ -225,6 +226,7 @@ width: 200px;
 
 
 .musica{
+  margin-top: 500px;
   text-align: center;
   border: 1px solid rgb(255, 254, 254);
   background: gray;
@@ -234,6 +236,7 @@ width: 200px;
 }
 
 .peliculas{
+  margin-top: 500px;
   text-align: center;
   border: 1px solid rgb(255, 254, 254);
   background: gray;
@@ -244,7 +247,7 @@ width: 200px;
 
 .contacto{
 
-
+  margin-top: 500px;
   text-align: center;
   border: 1px solid rgb(255, 254, 254);
   background: gray;
@@ -254,7 +257,7 @@ width: 200px;
 }
 
 .carrito{
-
+  margin-top: 500px;
   text-align: center;
   border: 1px solid rgb(255, 254, 254);
   background: gray;
@@ -265,6 +268,7 @@ width: 200px;
 
 
 .servicios{
+  margin-top: 500px;
   text-align: center;
   border: 1px solid rgb(255, 254, 254);
   background: gray;
@@ -279,7 +283,7 @@ width: 200px;
 
 
 footer{
-  border: 1px solid salmon;
+  
   color: white;
  background:rgb(37, 37, 37);
  width: 100vw;
